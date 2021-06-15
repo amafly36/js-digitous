@@ -71,42 +71,29 @@ if (score >= limit && password.length > 5 ) {
     console.log("Nothing is good")
 }
 
+/* Bonus-1 */
+var random = Math.random() * 6 
+if (random = 6) {
+    console.log("Yes I win !")
+}else {
+    console.log("So close...")
+}
 
+var random = Math.random() * 6 
+if (random === 6) {
+    console.log("Yes I win !")
+}else {
+    console.log("So close...")
+}
 
+/* Bonus-2 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+var month = "mars";
+if (month = "January"){
+    console.log("Winter")
+}else if (month = "mars"){
+    console.log("Spring")
+}
 
 
 
