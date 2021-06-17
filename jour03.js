@@ -32,10 +32,12 @@ console.log(numbers);
 
 /* Exo-05 */
 
-/* var total = 0
+var total = 0
 var limit = 10
-for (var i = 0; i => total; i++);
-console.log(total); */
+for (var i = 0; i <= limit; i++) {
+   total = total + i;
+}
+console.log(total);
 
 
 /* Exo-06 */
@@ -45,6 +47,7 @@ let rev = sentence.split('').reverse().join('');
 console.log(rev);
 
 
+/* Bonus-1 */
 
 
 
