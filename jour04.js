@@ -27,9 +27,9 @@ console.log(cats[1].isCute);
 /* Exo-03 */
 
 function checkIfEven(num) {
-    if (num % 2 == 0) {
-        console.log("even");
-    }else console.log("odd");
+    if (num % 2 === 0) {
+        console.log("Even");
+    }else console.log("Odd");
 }
 checkIfEven(13);
 
@@ -62,21 +62,22 @@ console.log(addUp(12));
 
 /* Exo-6 */
 
-/* function format(num) {
-    
+function format(num) {
+    console.log(Math.floor(num / 3600));
+    console.log(num % 3600);
+    console.log(Math.floor(num % 3600 / 60));
+
+    var hours = Math.floor(num / 3600);
+    var restHours = num % 3600;
+    var minutes = Math.floors(restHours / 60);
+    var secondes = restHours % 60;
+    console.log('$(hours) : $(minutes) : $(secondes)');
 }
- */
 
 
-var start = new Date().getTime();
 
-for (i = 0; i < 50000; ++i) {
-    total = total + i
-}
 
-var end = new Date().getTime();
-var time = end - start;
-return('Execution time: ' + time);
+
 
 
 
